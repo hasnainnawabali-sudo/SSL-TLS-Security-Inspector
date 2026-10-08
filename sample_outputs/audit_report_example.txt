@@ -1,0 +1,18 @@
+=================================================================
+  SSL/TLS SECURITY INSPECTOR REPORT: google.com:443
+=================================================================
+
+[+] Certificate Info:
+    Subject          : {'commonName': '*.google.com'}
+    Issuer           : {'countryName': 'US', 'organizationName': 'Google Trust Services', 'commonName': 'WR2'}
+    Expiration Date  : 2026-12-11 (63 days remaining)
+    [*] Certificate status: VALID
+
+[+] Active Connection Details:
+    Negotiated TLS   : TLSv1.3
+    Active Cipher    : TLS_AES_256_GCM_SHA384 (256-bit encryption)
+
+[+] Auditing Deprecated TLS Support...
+    [*] PASS: Server rejected legacy TLS 1.0 and TLS 1.1 connections.
+
+=================================================================
