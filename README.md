@@ -12,3 +12,9 @@ A Python security auditing tool designed to inspect web server SSL/TLS certifica
 
 ```bash
 python3 ssl_inspector.py <domain_or_ip> [-p PORT]
+# Verification & Audit Screenshots
+# 1. Secure Target Audit
+(Screenshot 2026-10-09 204820.png)
+# 2. Output Export & Report Generation
+Demonstrates running the security inspector against `google.com` and saving the generated audit report directly.
+(Screenshot 2026-10-09 205024.png)
